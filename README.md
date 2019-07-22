@@ -1,1 +1,1 @@
-# node.js , npm parcel-bundler
+# node.js , npm  parcel-bundler, npm gsap
