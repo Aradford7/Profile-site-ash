@@ -1,0 +1,22 @@
+{
+  "name": "profile-site-ash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aradford7/Profile-site-ash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aradford7/Profile-site-ash/issues"
+  },
+  "homepage": "https://github.com/Aradford7/Profile-site-ash#readme",
+  "devDependencies": {
+    "sass": "^1.22.7"
+  }
+}
