@@ -18,5 +18,9 @@
   "homepage": "https://github.com/Aradford7/Profile-site-ash#readme",
   "devDependencies": {
     "sass": "^1.22.7"
+  },
+  "dependencies": {
+    "@dogstudio/highway": "^2.1.3",
+    "gsap": "^2.1.3"
   }
 }
