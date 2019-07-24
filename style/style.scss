@@ -68,25 +68,26 @@
    * As an example: a breakpoint at 980px
    * 980px / 16px = 61.25em
   */
+
   
   /* 1200px / 16px = 75em */
   @media (max-width: 75em) {
     html {
-      font-size: 60%;
+      font-size: 58%;
     }
   }
   
   /* 980px / 16px = 61.25em */
   @media (max-width: 61.25em) {
     html {
-      font-size: 58%;
+      font-size: 56%;
     }
   }
   
   /* 460px / 16px = 28.75em */
   @media (max-width: 28.75em) {
     html {
-      font-size: 55%;
+      font-size: 53%;
     }
   }
 
@@ -201,8 +202,8 @@
     background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
 }
 .skills {
-  height: 55rem;
-    margin-left: -55rem;
+    height: 55rem;
+    margin-left: -43rem;
     margin-top: -7rem;
     width: 89rem;
     padding: 3px 3px 3px 3px;
