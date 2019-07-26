@@ -9,6 +9,7 @@ const H = new Highway.Core({
         work:Fade,
         showwork:Fade,
         contact:Fade,
+        showcase:Fade,
     }
 });
 

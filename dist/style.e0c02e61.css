@@ -90,6 +90,47 @@ img {
   }
 }
 /*Base styles*/
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+/*------------------------------------------
+  Foundation Media Queries 
+   http://foundation.zurb.com/docs/media-queries.html
+--------------------------------------------*/
+/* Small screens - MOBILE */
+/* Define mobile styles - Mobile First */
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+/* Medium screens - TABLET */
+/* min-width 641px, medium screens */
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+/* Large screens - DESKTOP */
+/* min-width 1025px, large screens */
+/* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+/* XLarge screens */
+/* min-width 1441px, xlarge screens */
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+/* XXLarge screens */
+/* min-width 1921px, xlarge screens */
+/*------------------------------------------*/
+/* Portrait */
+@media screen and (orientation: portrait) {
+  /* Portrait styles here */
+}
+/* Landscape */
+@media screen and (orientation: landscape) {
+  /* Landscape styles here */
+}
+/* CSS for iPhone, iPad, and Retina Displays */
+/* Non-Retina */
+/* Retina */
+/* iPhone Portrait */
+/* iPhone Landscape */
+/* iPad Portrait */
+/* iPad Landscape */
 /*STARTS Navbar*/
 #navbar {
   background-color: var(--main-gray);
@@ -114,7 +155,7 @@ img {
 
 /*Ends Navbar*/
 /* STARTS Home Page*/
-.home, .about, .work, .showwork, .contact {
+.home, .about, .work, .showwork, .contact, .showcase {
   height: 90vh;
   position: absolute;
   width: 100%;
@@ -407,6 +448,11 @@ footer {
 }
 
 /*End Contact Page*/
+/*Showcase*/
+.showcase {
+  background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+}
+
 /* Footer */
 .footer-section {
   margin-top: -4rem;
@@ -414,6 +460,10 @@ footer {
 
 .footer-section2 {
   margin-top: 3rem;
+}
+
+.footer-section3 {
+  margin-top: 51rem;
 }
 
 footer {
