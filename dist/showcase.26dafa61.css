@@ -251,7 +251,7 @@ article {
   color: var(--main-gray);
 }
 
-.footer-section-work {
+.footer-section {
   bottom: 10rem;
   margin-top: -6rem;
 }
@@ -428,11 +428,6 @@ footer {
   transform: translateY(8px);
 }
 
-footer-section-contact {
-  margin-top: -6rem;
-  bottom: 10rem;
-}
-
 /*End Contact Page*/
 /*Showcase*/
 .showcase {
@@ -498,4 +493,4 @@ footer i {
 /* iPad Portrait */
 /* iPad Landscape */
 
-/*# sourceMappingURL=/style.e0c02e61.css.map */
+/*# sourceMappingURL=/showcase.26dafa61.css.map */
