@@ -109,28 +109,6 @@ img {
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 /* Large screens - DESKTOP */
 /* min-width 1025px, large screens */
-/* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
-/* XLarge screens */
-/* min-width 1441px, xlarge screens */
-/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
-/* XXLarge screens */
-/* min-width 1921px, xlarge screens */
-/*------------------------------------------*/
-/* Portrait */
-@media screen and (orientation: portrait) {
-  /* Portrait styles here */
-}
-/* Landscape */
-@media screen and (orientation: landscape) {
-  /* Landscape styles here */
-}
-/* CSS for iPhone, iPad, and Retina Displays */
-/* Non-Retina */
-/* Retina */
-/* iPhone Portrait */
-/* iPhone Landscape */
-/* iPad Portrait */
-/* iPad Landscape */
 /*STARTS Navbar*/
 #navbar {
   background-color: var(--main-gray);
@@ -265,6 +243,7 @@ article {
 }
 
 /*End About page*/
+/*Start Work Page*/
 .work {
   background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
 }
@@ -274,13 +253,15 @@ article {
 
 .footer-section {
   bottom: 10rem;
+  margin-top: -6rem;
 }
 
 footer {
-  border-top: 4px solid var(--main-white);
+  border-top: 4px solid var(--main-cyan);
 }
 
-/*End About page*/
+/*End Work Page*/
+/*start Show WOrk page*/
 .showwork {
   background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
 }
@@ -401,7 +382,7 @@ footer {
 
 /*  START Contact Page*/
 .contact {
-  background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
 
 .contact-section {
@@ -489,5 +470,27 @@ footer i {
     text-align: center;
   }
 }
+/* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+/* XLarge screens */
+/* min-width 1441px, xlarge screens */
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+/* XXLarge screens */
+/* min-width 1921px, xlarge screens */
+/*------------------------------------------*/
+/* Portrait */
+@media screen and (orientation: portrait) {
+  /* Portrait styles here */
+}
+/* Landscape */
+@media screen and (orientation: landscape) {
+  /* Landscape styles here */
+}
+/* CSS for iPhone, iPad, and Retina Displays */
+/* Non-Retina */
+/* Retina */
+/* iPhone Portrait */
+/* iPhone Landscape */
+/* iPad Portrait */
+/* iPad Landscape */
 
 /*# sourceMappingURL=/style.e0c02e61.css.map */
